@@ -6,7 +6,56 @@
   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
 </head>
 <body>
-
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="nav navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="row">
+      <div class="col-lg-4">
+        <p><button type="button" class="btn btn-primary">Column #1</button></p>
+      </div>
+      <div class="col-lg-4">
+        <p><button type="button" class="btn btn-primary">Column #2</button></p>
+      </div>
+      <div class="col-lg-4">
+        <p><button type="button" class="btn btn-primary">Column #3</button></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4">
+        <p><button type="button" class="btn btn-primary">Column #4</button></p>
+      </div>
+      <div class="col-lg-4">
+        <p><button type="button" class="btn btn-primary">Column #5</button></p>
+      </div>
+      <div class="col-lg-4">
+        <p><button type="button" class="btn btn-primary">Column #6</button></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4">
+        <p><button type="button" class="btn btn-primary">Column #7</button></p>
+      </div>
+      <div class="col-lg-4">
+        <p><button type="button" class="btn btn-primary">Column #8</button></p>
+      </div>
+      <div class="col-lg-4">
+        <p><button type="button" class="btn btn-primary">Column #9</button></p>
+      </div>
+    </div>
+  </div>
 <%= yield %>
 <%= javascript_include_tag "application" %>
 </body>
